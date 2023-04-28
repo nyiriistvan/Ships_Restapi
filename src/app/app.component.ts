@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
  File: app.components.ts
  Author: Nyiri István
@@ -10,12 +11,16 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from './shared/api.service';
 import { NgForm } from '@angular/forms';
+=======
+import { Component } from '@angular/core';
+>>>>>>> 546280de7bde24f5e825fcf74ff869f1c632789b
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
+<<<<<<< HEAD
 export class AppComponent implements OnInit {
 
   ships:any = [];
@@ -66,4 +71,8 @@ export class AppComponent implements OnInit {
     }
   }
   
+=======
+export class AppComponent {
+  title = 'Ships';
+>>>>>>> 546280de7bde24f5e825fcf74ff869f1c632789b
 }

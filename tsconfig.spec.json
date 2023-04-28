@@ -7,6 +7,13 @@
       "jasmine"
     ]
   },
+<<<<<<< HEAD
+=======
+  "files": [
+    "src/test.ts",
+    "src/polyfills.ts"
+  ],
+>>>>>>> 546280de7bde24f5e825fcf74ff869f1c632789b
   "include": [
     "src/**/*.spec.ts",
     "src/**/*.d.ts"
