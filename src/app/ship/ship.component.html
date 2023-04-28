@@ -1,0 +1,19 @@
+<table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Size</th>
+        <th>Capacity</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let ship of ships">
+        <td>{{ ship.name }}</td>
+        <td>{{ ship.size }}</td>
+        <td>{{ ship.capacity }}</td>
+        <td><button (click)="deleteShip(ship)">Delete</button></td>
+      </tr>
+    </tbody>
+  </table>
+  
